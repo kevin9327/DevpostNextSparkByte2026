@@ -1,0 +1,139 @@
+{
+  "suite": "OmniSpark & AQX Sports Telemetry Suite ($250+ USD Cash Devpost Trio)",
+  "target_hackathons": [
+    {
+      "name": "NextSpark Hacks",
+      "url": "https://nextspark-hacks.devpost.com/",
+      "prize": "$100 USD Cash",
+      "registrations": 188
+    },
+    {
+      "name": "Next Byte Hacks V5",
+      "url": "https://next-byte-hacks-v5.devpost.com/",
+      "prize": "$100 USD Cash",
+      "registrations": 378
+    },
+    {
+      "name": "AQX Sports Analytics Data Bowl 4.0",
+      "url": "https://aqxanalyticsfour.devpost.com/",
+      "prize": "$50+ USD Cash",
+      "registrations": 93
+    }
+  ],
+  "generated_at_utc": "2026-10-25T12:59:11.048316+00:00",
+  "biometric_workload_alerts": [
+    {
+      "athlete_id": "ATH-01",
+      "name": "Marcus Vance",
+      "position": "Midfielder / Point",
+      "acute_load_7d": 690.0,
+      "chronic_load_28d": 420.0,
+      "acwr_ratio": 1.643,
+      "hrv_rmssd_ms": 38.0,
+      "baseline_hrv_ms": 62.0,
+      "sprint_decel_asymmetry_pct": 14.2,
+      "injury_risk_score": 91.0,
+      "risk_tier": "HIGH_RISK",
+      "recommended_intervention": "Cap high-speed running; substitute at 60 min + 48h active recovery"
+    },
+    {
+      "athlete_id": "ATH-03",
+      "name": "Devon Brooks",
+      "position": "Defender / Safety",
+      "acute_load_7d": 610.0,
+      "chronic_load_28d": 450.0,
+      "acwr_ratio": 1.356,
+      "hrv_rmssd_ms": 44.0,
+      "baseline_hrv_ms": 59.0,
+      "sprint_decel_asymmetry_pct": 9.8,
+      "injury_risk_score": 52.0,
+      "risk_tier": "MODERATE_WATCH",
+      "recommended_intervention": "Monitor deceleration load in 2nd half; eccentric hamstring protocol"
+    },
+    {
+      "athlete_id": "ATH-02",
+      "name": "Elena Rostova",
+      "position": "Wing / Forward",
+      "acute_load_7d": 460.0,
+      "chronic_load_28d": 445.0,
+      "acwr_ratio": 1.034,
+      "hrv_rmssd_ms": 68.5,
+      "baseline_hrv_ms": 66.0,
+      "sprint_decel_asymmetry_pct": 3.1,
+      "injury_risk_score": 6.8,
+      "risk_tier": "OPTIMAL_GREEN",
+      "recommended_intervention": "Cleared for full 90-min match intensity & high-press role"
+    },
+    {
+      "athlete_id": "ATH-04",
+      "name": "Kenji Takahashi",
+      "position": "Striker / Receiver",
+      "acute_load_7d": 430.0,
+      "chronic_load_28d": 440.0,
+      "acwr_ratio": 0.977,
+      "hrv_rmssd_ms": 71.0,
+      "baseline_hrv_ms": 70.0,
+      "sprint_decel_asymmetry_pct": 2.4,
+      "injury_risk_score": 5.3,
+      "risk_tier": "OPTIMAL_GREEN",
+      "recommended_intervention": "Cleared for full 90-min match intensity & high-press role"
+    }
+  ],
+  "aqx_spatial_xt_and_wpa_telemetry": [
+    {
+      "play_id": "PLY-101",
+      "match_clock": "74:12",
+      "start_zone_xy": [
+        6,
+        1
+      ],
+      "end_zone_xy": [
+        10,
+        3
+      ],
+      "start_xt_value": 0.0614,
+      "end_xt_value": 0.2822,
+      "xt_added": 0.2208,
+      "win_prob_before_pct": 51.2,
+      "win_prob_after_pct": 68.4,
+      "wpa_delta_pct": 17.2
+    },
+    {
+      "play_id": "PLY-102",
+      "match_clock": "81:45",
+      "start_zone_xy": [
+        7,
+        4
+      ],
+      "end_zone_xy": [
+        11,
+        3
+      ],
+      "start_xt_value": 0.1233,
+      "end_xt_value": 0.3539,
+      "xt_added": 0.2306,
+      "win_prob_before_pct": 58.0,
+      "win_prob_after_pct": 84.5,
+      "wpa_delta_pct": 26.5
+    },
+    {
+      "play_id": "PLY-103",
+      "match_clock": "88:03",
+      "start_zone_xy": [
+        4,
+        2
+      ],
+      "end_zone_xy": [
+        8,
+        5
+      ],
+      "start_xt_value": 0.031,
+      "end_xt_value": 0.1428,
+      "xt_added": 0.1118,
+      "win_prob_before_pct": 44.5,
+      "win_prob_after_pct": 52.1,
+      "wpa_delta_pct": 7.6
+    }
+  ],
+  "verification_sha256": "c4c4a4065e289b2834bf48dda6580146bdf0b3ed71594b150b7a178cd0c7bde1"
+}

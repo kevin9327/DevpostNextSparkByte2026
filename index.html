@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OmniSpark &amp; AQX Sports Telemetry | NextSpark • Next Byte V5 • AQX Data Bowl 4.0</title>
+  <style>
+    :root {
+      --bg: #070b14;
+      --card: #101829;
+      --border: #1e293b;
+      --green: #10b981;
+      --amber: #f59e0b;
+      --red: #ef4444;
+      --cyan: #38bdf8;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.55;
+      padding: 26px;
+    }
+    .container { max-width: 1240px; margin: 0 auto; }
+    .header {
+      background: linear-gradient(135deg, rgba(16,185,129,0.16), rgba(56,189,248,0.14));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 22px;
+    }
+    .badge-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 8px; }
+    .badge {
+      font-size: 11px;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+      text-transform: uppercase;
+      background: rgba(56,189,248,0.2);
+      color: var(--cyan);
+      border: 1px solid rgba(56,189,248,0.45);
+    }
+    h1 { font-size: 25px; font-weight: 800; margin-bottom: 4px; }
+    .subtitle { color: var(--muted); font-size: 13.5px; }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1.15fr 1fr;
+      gap: 20px;
+    }
+    @media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+    }
+    .card h2 {
+      font-size: 16px;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+    th, td { padding: 9px 7px; text-align: left; border-bottom: 1px solid rgba(255,255,255,0.06); }
+    th { color: var(--muted); font-size: 11px; text-transform: uppercase; }
+    .mono { font-family: 'JetBrains Mono', Consolas, monospace; font-size: 12px; }
+    .pill-red { background: rgba(239,68,68,0.2); color: #f87171; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; }
+    .pill-amber { background: rgba(245,158,11,0.2); color: #fbbf24; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; }
+    .pill-green { background: rgba(16,185,129,0.2); color: #34d399; padding: 2px 8px; border-radius: 6px; font-size: 11px; font-weight: 700; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="badge-row">
+        <span class="badge">NextSpark Hacks ($100 Cash • 188 Regs)</span>
+        <span class="badge">Next Byte Hacks V5 ($100 Cash • 378 Regs)</span>
+        <span class="badge">AQX Sports Analytics Data Bowl 4.0 ($50+ Cash • 93 Regs)</span>
+      </div>
+      <h1>OmniSpark &amp; AQX Sports Telemetry: Biometric ACWR Risk &amp; 12×8 Expected Threat (`xT`) Suite</h1>
+      <p class="subtitle">
+        Unified real-time sports analytics &amp; injury-prevention telemetry engine combining Acute:Chronic Workload Ratio (`ACWR`), Heart Rate Variability (`rMSSD`), and spatial pitch Expected Threat (`xT`) + Win Probability Added (`WPA`).
+      </p>
+    </div>
+
+    <div class="grid-2">
+      <div class="card">
+        <h2>
+          <span>1. Biometric Workload &amp; Soft-Tissue Injury Prevention (`ACWR` + `HRV`)</span>
+          <span class="pill-green">NextSpark &amp; Next Byte V5</span>
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Athlete</th>
+              <th>ACWR (7d/28d)</th>
+              <th>HRV rMSSD</th>
+              <th>Risk Score</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Marcus Vance</strong> (MID)</td>
+              <td class="mono">1.643</td>
+              <td class="mono">38.0 ms (-38.7%)</td>
+              <td class="mono">91.0 / 100</td>
+              <td><span class="pill-red">HIGH RISK</span></td>
+            </tr>
+            <tr>
+              <td><strong>Devon Brooks</strong> (DEF)</td>
+              <td class="mono">1.356</td>
+              <td class="mono">44.0 ms (-25.4%)</td>
+              <td class="mono">52.0 / 100</td>
+              <td><span class="pill-amber">MODERATE</span></td>
+            </tr>
+            <tr>
+              <td><strong>Elena Rostova</strong> (FWD)</td>
+              <td class="mono">1.034</td>
+              <td class="mono">68.5 ms (+3.8%)</td>
+              <td class="mono">6.8 / 100</td>
+              <td><span class="pill-green">OPTIMAL</span></td>
+            </tr>
+            <tr>
+              <td><strong>Kenji Takahashi</strong> (STR)</td>
+              <td class="mono">0.977</td>
+              <td class="mono">71.0 ms (+1.4%)</td>
+              <td class="mono">5.3 / 100</td>
+              <td><span class="pill-green">OPTIMAL</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="card">
+        <h2>
+          <span>2. AQX Spatial Expected Threat (`xT`) &amp; Win Probability Added (`WPA`)</span>
+          <span class="pill-green">AQX Data Bowl 4.0</span>
+        </h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Play ID</th>
+              <th>Clock</th>
+              <th>Zone Transition</th>
+              <th>xT Added</th>
+              <th>WPA Delta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="mono">PLY-101</td>
+              <td class="mono">74:12</td>
+              <td class="mono">[6, 1] → [10, 3]</td>
+              <td class="mono">+0.2194 xT</td>
+              <td><span class="pill-green">+17.20% WPA</span></td>
+            </tr>
+            <tr>
+              <td class="mono">PLY-102</td>
+              <td class="mono">81:45</td>
+              <td class="mono">[7, 4] → [11, 3]</td>
+              <td class="mono">+0.2562 xT</td>
+              <td><span class="pill-green">+26.50% WPA</span></td>
+            </tr>
+            <tr>
+              <td class="mono">PLY-103</td>
+              <td class="mono">88:03</td>
+              <td class="mono">[4, 2] → [8, 5]</td>
+              <td class="mono">+0.1237 xT</td>
+              <td><span class="pill-green">+7.60% WPA</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
